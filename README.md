@@ -1,7 +1,23 @@
-ToDo Application
+# ToDo Application
 
-Created using Flask.
 
-SQLAlcemy and sqlite is used for database.
+### Flask installation:
 
-semantic-ui is used for styling.
+pip install flask
+
+pip install flask_sqlalchemy
+
+
+### Run the application:
+
+set FLASK_APP = app.py
+
+flask run
+
+(http://127.0.0.1:5000/)
+
+### Debug mode:
+
+set FLASK_ENV = development
+
+flask run
